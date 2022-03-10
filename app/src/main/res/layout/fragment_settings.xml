@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+>
+    <TextView
+        android:layout_margin="20dp"
+        android:text="Select Home Screen background color"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/veeraradioGroupColor">
+
+        <RadioButton
+            android:textColor="#CDF97171"
+            android:id="@+id/veeraradioRed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:layout_margin="10dp"
+
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:textColor="#5172E7"
+
+            android:id="@+id/veeraradioBlue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:checked="false"
+            android:layout_margin="10dp"
+            android:textSize="20dp" />
+        <RadioButton
+            android:textColor="#5CB559"
+            android:layout_margin="10dp"
+
+            android:id="@+id/veeraradioGreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+
+            android:textSize="20dp" />
+    </RadioGroup>
+    <TextView
+        android:layout_margin="20dp"
+        android:text="Select Time Format"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/veeraradioGroupTimeFormate">
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="12 hr"
+            android:layout_margin="10dp"
+
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="24 hr"
+            android:checked="false"
+            android:layout_margin="10dp"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:text="SUBMIT"
+        android:id="@+id/veerasubmit"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

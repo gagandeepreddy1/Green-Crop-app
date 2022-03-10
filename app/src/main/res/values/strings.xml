@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Green Crop App</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be 8 or more than 8 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Settings</string>
+    <string name="menu_weather">Weather</string>
+
+    <string name="faq">
+       1. Where do I get Android Studio? \n
+
+Android Studio is available for download at the developer.android.com site.\n\n\n
+
+2. Is Android Studio a fork of IntelliJ IDEA?\n
+
+No. Android Studio and the Android plugin for IntelliJ IDEA are built from
+        the same code, and all of the changes in Android Studio are, and will continue to be,
+        available in IntelliJ IDEA releases.\n\n\n
+
+3. When can I get the Android Studio features in IntelliJ IDEA?\n
+
+The EAP of IntelliJ IDEA 13, which includes all of the Android Studio features
+        except for the redesigned new project wizard and the App Engine cloud endpoints
+        integration, is available now. The remaining features are going to be integrated in the coming weeks.\n\n\n
+
+4. Will the new features of Android Studio be available for users of IntelliJ IDEA 12?\n
+
+No. The new features (especially the Gradle support) depend on the major changes that were done in the version
+        13 platform, and we do not have any plans to backport them.\n\n\n
+
+5. If I’m already a user of IntelliJ IDEA, do I need to switch to Android Studio for Android development?\n
+
+No. Android Studio is focused specifically on Android development and provides streamlined environment and project
+        setup, but otherwise all of its features are available in IntelliJ IDEA.\n\n\n
+
+6. If I rely on features that are only available in IntelliJ IDEA Ultimate (such as additional version control plugins), will I be able to use Android Studio?\n
+
+No, these additional features will not be available in Android Studio. You should continue using IntelliJ IDEA Ultimate.\n\n\n
+
+7. Are Android Studio projects compatible with IntelliJ IDEA?\n
+
+Yes, the two IDEs use the same project format.\n\n\n
+
+8. Is it planned to support NDK development in Android Studio or IntelliJ IDEA?\n
+
+We have recently announced that we’re starting work on an IDE for C++, and we plan to eventually support NDK development as part of that effort. As for NDK development support in Android Studio, Google hasn’t announced anything so far.\n\n\n
+
+9. Where do I report bugs?\n
+
+If you’re using Android Studio, please report bugs to the AOSP issue tracker. IntelliJ IDEA issues, as before, should be reported through YouTrack."
+
+    </string>
+
+    <string-array name="type">
+        <item>Fruits</item>
+        <item>Vegitables</item>
+    </string-array>
+</resources>

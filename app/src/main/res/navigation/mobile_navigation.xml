@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.greencrop.activities.HomeScreen.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_slideshow"
+            app:destination="@id/nav_weather" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_settings"
+            app:destination="@id/nav_setting" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.greencrop.activities.HomeScreen.ui.settings.SettingFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.greencrop.activities.HomeScreen.ui.weather.WeatherFragment"
+        android:label="@string/menu_weather"
+        tools:layout="@layout/fragment_weather" />
+ <fragment
+        android:id="@+id/navFertilizer_for_crop"
+        android:name="com.greencrop.activities.HomeScreen.ui.fertilizer_for_crop.FertiliserForCrop"
+        android:label="Fertilizer Shop"
+        tools:layout="@layout/fragment_fertilizer_shop" />
+ <fragment
+        android:id="@+id/navSeasonal"
+        android:name="com.greencrop.activities.HomeScreen.ui.season_crop.SeasonalCropFragment"
+        android:label="Fertilizer Shop"
+        tools:layout="@layout/fragment_fertilizer_shop_maps" />
+</navigation>
